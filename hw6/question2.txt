@@ -1,0 +1,12 @@
+A C program moves from source code to execution in these 5 stages : 
+preprocessing : which it expands using #include and #define directives
+compilation: in which it translates C code to assembly language
+assmembly: converts assembly to machine code 
+linking: combines object files with libraries to create an executable 
+program
+loading: OS loads the executable into memory for execution
+the 5 stages are preprocessing, compilation assembly linking and loading andone possible error at each one is: in preprocessing when you do the #include you could end up including something that doesn exist, so the error u might get is file not found, 
+in compilation an error u get is an easy syntax error like forgetting a semicolon,
+assembly when it converts assembly to machine code an error u could get is  invalid assembly instructions
+for linking an error u could get undefined refernce to the functions u implemented
+and loading just has to do with memory so if its starting to overflow then a possible error u could get is insufficient memory
