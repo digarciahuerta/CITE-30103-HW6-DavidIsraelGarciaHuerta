@@ -1,0 +1,1 @@
+if it is removed then the program would not work. The stage that would fail is the linking stage because stdio is a library and if it isnt there to use it then it would cause the linking stage to fail. An error message that I would expect to happen would be "printf not declared"
