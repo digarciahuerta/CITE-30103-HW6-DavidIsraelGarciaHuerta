@@ -1,0 +1,1 @@
+so it didnt work because the addition took priority over the left shift operator so it originally would lead to 16 but now that we put parenthesis it would acully lead to 11 because now it would turn 3 into 6 then it would add5 leading to 11 as originally expected
